@@ -9,5 +9,6 @@ Tecnologias
 Organização dos Diretórios
 
 - Codificação
+- Documentação
 - Mockups
 - Tutoriais
