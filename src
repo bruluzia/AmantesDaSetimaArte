@@ -1,0 +1,129 @@
+package com.example.a201719060428.amantesdasetimaarte;
+
+public class Usuario {
+
+    private String id_usuario;
+    private String nome;
+    private String sobrenome;
+    private String email;
+    private String senha;
+
+    public String getId_usuario() {
+        return id_usuario;
+    }
+
+    public void setId_usuario(String id_usuario) {
+        this.id_usuario = id_usuario;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+}
+
+package com.example.a201719060428.amantesdasetimaarte;
+
+public class Filme {
+
+    private String id_filme;
+    private String titulo;
+    private String diretor;
+    private String duracao;
+    private String genero;
+    private String idade;
+    private String lancamento;
+    private String distribuidor;
+
+    public String getId_filme() {
+        return id_filme;
+    }
+
+    public void setId_filme(String id_filme) {
+        this.id_filme = id_filme;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getDiretor() {
+        return diretor;
+    }
+
+    public void setDiretor(String diretor) {
+        this.diretor = diretor;
+    }
+
+    public String getDuracao() {
+        return duracao;
+    }
+
+    public void setDuracao(String duracao) {
+        this.duracao = duracao;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getIdade() {
+        return idade;
+    }
+
+    public void setIdade(String idade) {
+        this.idade = idade;
+    }
+
+    public String getLancamento() {
+        return lancamento;
+    }
+
+    public void setLancamento(String lancamento) {
+        this.lancamento = lancamento;
+    }
+
+    public String getDistribuidor() {
+        return distribuidor;
+    }
+
+    public void setDistribuidor(String distribuidor) {
+        this.distribuidor = distribuidor;
+    }
+
+}
