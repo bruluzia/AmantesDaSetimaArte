@@ -1,0 +1,15 @@
+<resources>
+    <!-- Nome da aplicação-->
+    <string name="app_name">Amantes da Sétima Arte</string>
+
+    <!-- Tela de Login-->
+    <string name="cabecalho_texto">Amantes da Sétima Arte</string>
+    <string name="title_activity_login">Amantes da Sétima Arte</string>
+    <string name="campo_email">Email</string>
+    <string name="campo_senha">Senha</string>
+    <string name="botao_login">Entrar</string>
+    <string name="invalid_username">Email não é válido</string>
+    <string name="invalid_password">A senha deve ser maior do que 5 caracteres</string>
+    <string name="login_falho">Falha no Login</string>
+    <string name="botao_cadastro">Cadastrar Conta</string>
+</resources>
