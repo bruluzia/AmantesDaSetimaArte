@@ -12,4 +12,8 @@
     <string name="invalid_password">A senha deve ser maior do que 5 caracteres</string>
     <string name="login_falho">Falha no Login</string>
     <string name="botao_cadastro">Cadastrar Conta</string>
+    
+    <!-- Tela de Cadastro-->
+    <string name="campo_nome">Nome</string>
+    <string name="campo_sobrenome">Sobrenome</string>
 </resources>
