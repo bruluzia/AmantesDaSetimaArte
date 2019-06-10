@@ -16,4 +16,10 @@
     <!-- Tela de Cadastro-->
     <string name="campo_nome">Nome</string>
     <string name="campo_sobrenome">Sobrenome</string>
+    
+    <!--Tela de Perfil -->
+    <string name="texto_dadosUsuario">Perfil do Usuário</string>
+    <string name="texto_nome_perfil">Nome: </string>
+    <string name="texto_sobrenome_perfil">Sobrenome: </string>
+    <string name="texto_email_perfil">E-mail: </string>
 </resources>
