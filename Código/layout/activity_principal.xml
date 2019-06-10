@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * @author Bruna Luzia Almeida Rodrigues - Acadêmica de Engenharia de Software
+    * @author Danielle Lima Maidana Gauna Benites - Acadêmica de Engenharia de Software
+    * @author Gabriel Martinez Nunes - Acadêmico de Engenharia de Software
+    * @author Piter Martins Rocha - Acadêmico de Engenharia de Software
+    *
+    * Classe activity_principal
+    * Descrição: arquivo xml para tela principal que possui um navegador inferior
+    * *-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/id_bottomNav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/principal_main" />
+
+</android.support.constraint.ConstraintLayout>
