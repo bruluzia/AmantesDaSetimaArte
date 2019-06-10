@@ -1,4 +1,14 @@
+<!--
+    * @author Bruna Luzia Almeida Rodrigues - Acadêmica de Engenharia de Software
+    * @author Danielle Lima Maidana Gauna Benites - Acadêmica de Engenharia de Software
+    * @author Gabriel Martinez Nunes - Acadêmico de Engenharia de Software
+    * @author Piter Martins Rocha - Acadêmico de Engenharia de Software
+    *
+    * Classe activity_login
+    * Descrição: arquivo xml para tela de login
+    * *-->
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
