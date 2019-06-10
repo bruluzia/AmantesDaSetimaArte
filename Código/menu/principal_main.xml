@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * @author Bruna Luzia Almeida Rodrigues - Acadêmica de Engenharia de Software
+    * @author Danielle Lima Maidana Gauna Benites - Acadêmica de Engenharia de Software
+    * @author Gabriel Martinez Nunes - Acadêmico de Engenharia de Software
+    * @author Piter Martins Rocha - Acadêmico de Engenharia de Software
+    *
+    * Classe principal_main
+    * Descrição: arquivo xml, sendo um menu para utilizar no navbar bottom
+    * *-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_NavHome"
+        android:icon="@drawable/ic_movies"
+        android:title="@string/navbar_movies"/>
+    <item
+        android:id="@+id/id_NavFavoritos"
+        android:icon="@drawable/ic_favoritos"
+        android:title="@string/navbar_favoritos"/>
+    <item
+        android:id="@+id/id_NavProfile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/navbar_profile"/>
+
+</menu>
